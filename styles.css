@@ -1,0 +1,39 @@
+header, head, body {
+    background-color: #242526    ;
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    font-size: larger;
+    /* background-color: #CCCCFF; */
+    color: rgb(255, 255, 255) !important;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+h3 {
+    position:relative, left 80px; top: 50px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.h3:link{
+    color:aquamarine;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+.h3:visited{
+    color: aqua;
+}
+h4 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+}
+.productsquare, h3 {
+    text-align: center;
+    display: block;
+}
