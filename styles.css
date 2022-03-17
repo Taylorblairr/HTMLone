@@ -7,26 +7,50 @@ header, head, body {
 h1 {
     text-align: center;
 }
-h2 {
-    text-align: center;
+ul {
+    /* text-align: center; */
     font-size: larger;
     /* background-color: #CCCCFF; */
-    color: rgb(255, 255, 255) !important;
+    color: rgb(255, 255, 255) ;
     text-decoration: none;
     font-family: 'Courier New', Courier, monospace;
-
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: block;
+    display: inline;
+    position: relative;
+    bottom: 45px;
+    width: 100%;
 }
+li {
+    float: center;
+    list-style: none;
+}
+li a {
+    display: block;
+    color: white;
+    /* background-color:darkslateblue; */
+    /* width: 100px; */
+    /* height: auto; */
+    text-align: center;
+    padding: 0px 175px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+  }
 h3 {
     position:relative, left 80px; top: 50px;
     font-family: 'Courier New', Courier, monospace;
 
 }
-.h3:link{
+h3:link{
     color:aquamarine;
     text-decoration: none;
     font-family: 'Courier New', Courier, monospace;
 }
-.h3:visited{
+h3:hover{
     color: aqua;
 }
 h4 {
